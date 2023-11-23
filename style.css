@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-family: Roboto;
+}
+
+header {
+    background-color: #1a83a3;
+    color: white;
+}
+
+footer {
+    background-color: #1a83a3;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+    margin: 10px auto;
+}
+
+.img-container {
+    background-color: rgb(168, 71, 71);
+    width: 300px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card-info {
+    padding: 10px 20px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-icon {
+    width: 24px;
+    height: auto;
+}
+
+.card p {
+    padding-top: 20px;
+}
+
+footer h1 {
+    padding: 10px;
+}
+
+footer p {
+    padding: 10px;
+}
