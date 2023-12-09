@@ -22,10 +22,10 @@ header {
 .header::before {
     content: '';
     position: absolute;
-    top: -140%;
+    top: -40%;
     left: 0;
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     background-color: #1a83a3;
     transform-origin: bottom left;
     transform: skewY(-30deg); /* Set the initial slant angle */
@@ -33,24 +33,25 @@ header {
   }
 
 .header-img-container {
-    min-width: 300px;
+    max-width: 85%;
     height: auto;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    margin-top: 20px;
+    /*padding: 20px;*/
 }
 
 .header-img {
-    object-fit: ccntain;
-    width: 300px;
+    object-fit: contain;
+    width: 100%;
     height: 100%;
 }
 
 .header-img-text-overlay {
     position: absolute;
     top: 60%;
-    left: 10%;
+    /*left: 10%;*/
     text-align: center;
     width: 300px;
     height: auto;
