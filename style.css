@@ -32,6 +32,12 @@ header {
     z-index: -1;
   }
 
+  @media screen and (min-width: 600px) {
+    .header::before {
+        transform: skewY(-15deg);
+    }
+  }
+
 .header-img-container {
     max-width: 85%;
     height: auto;
